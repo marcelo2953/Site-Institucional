@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header {
+    background-color: #0f00db;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+
+/*
+Menu Fixed Top
+*/
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    background-image: linear-gradient(to right, #9A26F0, #E300FC);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float: left;
+    box-shadow: 10px;
+    z-index: 1;
+}
+
+.navbar a:hover {
+    color: rgba(255, 255, 255, 1.332);
+}
+
+.navbar ul li a {
+    float: right;
+    display: block;
+    color: rgba(255, 255, 255, 0.666);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 7px 0px 7px 0px;
+    text-transform: capitalize;
+}
+
+.item-navbar {
+    list-style-type: none;
+}
+
+.container-navbar {
+    width: 600px;
+    padding-left: 500px;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+.logo{
+    max-width: 100%;
+    width: 130px;/*assume this is the default size*/
+    padding-left: 120px;
+}
+
+.f-left{
+    float: left;
+}
+
+.clearfix::after { /* Usar com float */
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.intro-section {
+    background: linear-gradient(to right, #9A26F0, #E300FC);
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
